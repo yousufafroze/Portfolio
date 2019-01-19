@@ -1,0 +1,296 @@
+/* General Formatting*/
+
+*{
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+#footer i {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+}
+#footer i:hover {
+  color: #6e5800;
+  text-decoration: none;
+  transition: .5s;
+}
+#footer .tile_div a {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-right: 5px;
+    background-image: url(./images/button_left.png);
+    background-color: #6e3100;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+#footer .clear {
+    clear: both;
+}
+
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+BODY {
+  background: #282931;
+  -webkit-font-smoothing: antialiased;
+}
+
+canvas {
+  height: 100vh;
+  z-index: -10;
+  position: fixed;
+  top: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff90bb;
+}
+
+
+h1 a{
+  color: #ff90bb;
+  padding-bottom: 0px;
+  margin-bottom: 1%;
+  text-decoration: none;
+
+}
+
+h2 a{
+  color: #ff90bb;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+
+}
+
+h2 a:hover{
+  color:#ff527a;
+}
+h2{
+  color: #ff90bb;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  color: #555560;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+#rere:hover {
+color:blue;
+}
+
+#subtitle{
+  color: #555560
+}
+/* Scrolling Effect */
+.parallax-img1, .parallax-img2, .parallax-img3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* import images and position them */
+.parallax-img1{
+  background-image: url('///Users/Yousuf/Desktop/img/img2.jpg');
+  min-height: 100%;
+}
+
+.parallax-img2{
+  background-image: url('///Users/Yousuf/Desktop/img/img1.jpg');
+  min-height: 400px;
+}
+
+.parallax-img3{
+  background-image: url('///Users/Yousuf/Desktop/img/img3.jpg');
+  min-height: 400px;
+}
+
+
+/* Section Styling */
+
+.section{
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #E8E8E8;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color: #ddd;
+}
+
+
+/* image text and content styling */
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border img{
+  position: relative;
+  top: -195px;
+  left: -20px;
+  max-height: 390px;
+  opacity: 0.90;
+}
+
+.ptext .border.trans{
+  background-color: transparent;
+}
+
+/*Front page*/
+.v-header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+/* skills */
+
+.skill-container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.skill-name{
+  text-align: left;
+  margin: 15px 0;
+}
+
+.learn{ width: 100%;
+  background-color: #616161;
+}
+.back-end {
+  width: 90%;
+  background-color: #616161;
+}
+.front-end {
+  width: 85%;
+  background-color: #616161;
+}
+.testing {
+  width: 80%;
+  background-color: #616161;
+}
+.design {
+  width: 75%;
+  background-color: #616161;
+}
+
+/* Mobile friendly */
+@media(max-width:960px){
+  .fullscreen-video-wrap video{
+    min-width: 116%;
+    min-height: 100%;
+    margin-bottom: -500px;
+    margin-left: -520px;
+  }
+}
+
+@media (max-width:720px) {
+  .fullscreen-video-wrap video{
+    min-width: 116%;
+    min-height: 100%;
+    margin-bottom: -500px;
+    margin-left: -640px;
+  }
+}
+
+@media(max-width:568px){
+
+  .fullscreen-video-wrap video{
+    margin-left: -800px;
+  }
+
+  .parallax-img1, .parallax-img2, .parallax-img3{
+    background-attachment: scroll;
+  }
+
+  .header-content{
+    max-width: 400px
+  }
+  
+  .btn{
+    bottom: 210px;
+    left: -8px;
+  }
+
+  .container{
+    max-width: 568px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+  }
+
+  .ptext .border img{
+    position: relative;
+    top: -180px;
+    left: 20px;
+    max-width: 500px;
+  }
+
+  .rating{
+    display: block;
+  }
+  .rating .skill{
+    display: block;
+  }
+  .parallax-img2 .ptext .border img{
+    max-width: 370px;
+  }
+
+  .parallax-img3 .ptext .border img{
+    max-width: 370px;
+  }
+}
+
+/* Let you control the JS particle */
+.header-content{
+  z-index: 2;
+  max-height: 100vh;
+  max-width: 100vw;
+  margin:  0 auto;
+  font-size: 1.5em;
+  text-align: center; 
+}
