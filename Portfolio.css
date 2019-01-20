@@ -115,7 +115,7 @@ color:blue;
 
 /* import images and position them */
 .parallax-img1{
-  background-image :url('///Users/Yousuf/Desktop/Portfolio/Img/img1.jpg');
+  background-image :url('https://yousufafroze.github.io/Portfolio/Img/img1.jpg');
   min-height: 100%;
 }
 
