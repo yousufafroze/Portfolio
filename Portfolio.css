@@ -114,17 +114,18 @@ color:blue;
 }
 
 /* import images and position them */
-.parallax-img1{'///Users/Yousuf/Desktop/Portfolio/Img/img1.jpg');
+.parallax-img1{
+  backgroun-image :url('///Users/Yousuf/Desktop/Portfolio/Img/Img1.jpg');
   min-height: 100%;
 }
 
 .parallax-img2{
-  background-image: url('///Users/Yousuf/Desktop/Portfolio/Img/img2.jpg');
+  background-image: url('///Users/Yousuf/Desktop/Portfolio/Img/Img2.jpg');
   min-height: 400px;
 }
 
 .parallax-img3{
-  background-image: url('///Users/Yousuf/Desktop/Portfolio/Img/img3.jpg');
+  background-image: url('///Users/Yousuf/Desktop/Portfolio/Img/Img3.jpg');
   min-height: 400px;
 }
 
