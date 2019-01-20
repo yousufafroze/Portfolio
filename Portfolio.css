@@ -115,17 +115,17 @@ color:blue;
 
 /* import images and position them */
 .parallax-img1{
-  background-image :url('https://yousufafroze.github.io/Portfolio/Img/img1.jpg');
+  background-image :url('https://imgur.com/a/TsagPMp');
   min-height: 100%;
 }
 
 .parallax-img2{
-  background-image: url('https://yousufafroze.github.io/Portfolio/Img/img1.jpg');
+  background-image: url('https://imgur.com/a/TsagPMp');
   min-height: 400px;
 }
 
 .parallax-img3{
-  background-image: url('https://yousufafroze.github.io/Portfolio/Img/img1.jpg');
+  background-image: url('https://imgur.com/a/TsagPMp');
   min-height: 400px;
 }
 
