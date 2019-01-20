@@ -114,18 +114,17 @@ color:blue;
 }
 
 /* import images and position them */
-.parallax-img1{
-  background-image: url('https://photos.google.com/album/AF1QipPRSA8dioDrx7t2ej9CJMpBEMSGHSmyatMN6KJ0/photo/AF1QipOqvnZnWwsV3Lk_SwMCO_HKu3o1VAKUMw0ji5go');
+.parallax-img1{'///Users/Yousuf/Desktop/Portfolio/Img/img1.jpg');
   min-height: 100%;
 }
 
 .parallax-img2{
-  background-image: url('https://photos.google.com/album/AF1QipPRSA8dioDrx7t2ej9CJMpBEMSGHSmyatMN6KJ0/photo/AF1QipOqvnZnWwsV3Lk_SwMCO_HKu3o1VAKUMw0ji5go');
+  background-image: url('///Users/Yousuf/Desktop/Portfolio/Img/img2.jpg');
   min-height: 400px;
 }
 
 .parallax-img3{
-  background-image: url('https://photos.google.com/album/AF1QipPRSA8dioDrx7t2ej9CJMpBEMSGHSmyatMN6KJ0/photo/AF1QipOqvnZnWwsV3Lk_SwMCO_HKu3o1VAKUMw0ji5go');
+  background-image: url('///Users/Yousuf/Desktop/Portfolio/Img/img3.jpg');
   min-height: 400px;
 }
 
