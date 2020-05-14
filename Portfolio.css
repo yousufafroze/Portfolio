@@ -126,12 +126,12 @@ color:blue;
 
 .parallax-img2{
   background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img2.jpg');
-  min-height: 100%;
+  min-height: 400px;
 }
 
 .parallax-img3{
   background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img1.JPG');
-  min-height: 100%;
+  min-height: 400px;
 }
 
 
