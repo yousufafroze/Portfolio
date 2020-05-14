@@ -119,8 +119,13 @@ color:blue;
   min-height: 100%;
 }
 
-.parallax-img2{
+/* .parallax-img2{
   background-image: url('https://yousufafroze.github.io/Portfolio/Img/img2.jpg');
+  min-height: 400px;
+} */
+
+.parallax-img2{
+  background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img1.JPG');
   min-height: 400px;
 }
 
