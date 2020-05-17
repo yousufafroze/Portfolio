@@ -115,7 +115,7 @@ color:blue;
 
 /* import images and position them */
 .parallax-img1{
-  background-image :url('https://yousufafroze.github.io/Portfolio/Img/img1.jpg');
+  background-image :url('https://yousufafroze.github.io/Portfolio/Img/img1.jp');
   min-height: 100%;
 }
 
@@ -125,12 +125,12 @@ color:blue;
 } */
 
 .parallax-img2{
-  background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img2.jpg');
+  background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img2.jp');
   min-height: 400px;
 }
 
 .parallax-img3{
-  background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img1.JPG');
+  background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img1.JP');
   min-height: 400px;
 }
 
