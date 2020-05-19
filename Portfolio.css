@@ -58,12 +58,12 @@ canvas {
 
 h1 {
   text-align: center;
-  color: #ff90bb;
+  color: #90acff;
 }
 
 
 h1 a{
-  color: #ff90bb;
+  color: #90acff;
   padding-bottom: 0px;
   margin-bottom: 1%;
   text-decoration: none;
@@ -71,7 +71,7 @@ h1 a{
 }
 
 h2 a{
-  color: #ff90bb;
+  color: #ffffff;
   font-weight: bold;
   margin: 0px;
   padding: 0px;
@@ -80,7 +80,7 @@ h2 a{
 }
 
 h2 a:hover{
-  color:#ff527a;
+  color:#cfdbff;
 }
 h2{
   color: #ff90bb;
