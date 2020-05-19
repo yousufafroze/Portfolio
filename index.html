@@ -1,301 +1,183 @@
-/* General Formatting*/
-
-*{
-  box-sizing: border-box;
-  font-family: 'Varela Round', sans-serif;
-
-}
-
-#footer i {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8em
-}
-#footer i:hover {
-  color: #6e5800;
-  text-decoration: none;
-  transition: .5s;
-}
-#footer .tile_div a {
-    display: block;
-    float: left;
-    height: 50px;
-    width: 100px;
-    margin-right: 5px;
-    background-image: url(./images/button_left.png);
-    background-color: #6e3100;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-}
-
-#footer .clear {
-    clear: both;
-}
+<!-- PAST INTERNSHIPS AND EXPERIENCES -->
+<!-- PAST INTERNSHIPS AND EXPERIENCES -->
+<!-- CONTACT INFORMATION -->
+<!-- CASE COMPETIONS AND HACKATHONS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yousuf Afroze</title>
+  <link rel="stylesheet" href="Portfolio.css">
 
 
-body, html{
-  height: 100%;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.8em;
-  color: #666;
-}
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-BODY {
-  background: #282931;
-  -webkit-font-smoothing: antialiased;
-}
-
-canvas {
-  height: 100vh;
-  z-index: -10;
-  position: fixed;
-  top: 0px;
-}
-
-h1 {
-  text-align: center;
-  color: #90acff;
-}
-
-
-h1 a{
-  color: #90acff;
-  padding-bottom: 0px;
-  margin-bottom: 1%;
-  text-decoration: none;
-
-}
-
-h2 a{
-  color: #ffffff;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
-
-}
-
-h2 a:hover{
-  color:#cfdbff;
-}
-h2{
-  color: #ff90bb;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-}
-
-h3 {
-  color: #555560;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-}
-
-#rere:hover {
-color:blue;
-}
-
-#subtitle{
-  color: #555560
-}
-/* Scrolling Effect */
-.parallax-img1, .parallax-img2, .parallax-img3{
-  position: relative;
-  opacity: 0.70;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-/* import images and position them */
-.parallax-img1{
-  background-image :url('https://yousufafroze.github.io/Portfolio/Img/thankyou.jpg');
-  min-height: 100%;
-}
-
-/* .parallax-img2{
-  background-image: url('https://yousufafroze.github.io/Portfolio/Img/img2.jpg');
-  min-height: 400px;
-} */
-
-.parallax-img2{
-  background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img2.jp');
-  min-height: 400px;
-}
-
-.parallax-img3{
-  background-image: url('https://yousufafroze.github.io/Portfolio/Img/portfolio_img1.JP');
-  min-height: 400px;
-}
-
-
-/* Section Styling */
-
-.section{
-  padding: 50px 80px;
-}
-
-.section-light{
-  background-color: #E8E8E8;
-  color:#666;
-}
-
-.section-dark{
-  background-color:#282e34;
-  color: #ddd;
-}
-
-
-/* image text and content styling */
-.ptext{
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-
-.ptext .border img{
-  position: relative;
-  top: -195px;
-  left: -20px;
-  max-height: 390px;
-  opacity: 0.90;
-}
-
-.ptext .border.trans{
-  background-color: transparent;
-}
-
-/*Front page*/
-.v-header{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
-
-/* skills */
-
-.skill-container {
-  width: 100%;
-  background-color: #ddd;
-}
-
-.skills {
-  text-align: right;
-  padding-right: 20px;
-  line-height: 40px;
-  color: white;
-}
-
-.skill-name{
-  text-align: left;
-  margin: 15px 0;
-}
-
-.learn{ width: 100%;
-  background-color: #616161;
-}
-.back-end {
-  width: 90%;
-  background-color: #616161;
-}
-.front-end {
-  width: 85%;
-  background-color: #616161;
-}
-.testing {
-  width: 80%;
-  background-color: #616161;
-}
-.design {
-  width: 75%;
-  background-color: #616161;
-}
-
-/* Mobile friendly */
-@media(max-width:960px){
-  .fullscreen-video-wrap video{
-    min-width: 116%;
-    min-height: 100%;
-    margin-bottom: -500px;
-    margin-left: -520px;
-  }
-}
-
-@media (max-width:720px) {
-  .fullscreen-video-wrap video{
-    min-width: 116%;
-    min-height: 100%;
-    margin-bottom: -500px;
-    margin-left: -640px;
-  }
-}
-
-@media(max-width:568px){
-
-  .fullscreen-video-wrap video{
-    margin-left: -800px;
-  }
-
-  .parallax-img1, .parallax-img2, .parallax-img3{
-    background-attachment: scroll;
-  }
-
-  .header-content{
-    max-width: 400px
-  }
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-  .btn{
-    bottom: 210px;
-    left: -8px;
-  }
 
-  .container{
-    max-width: 568px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: auto;
-  }
+  <!-- Fonts from the other site -->
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+  
+    <!-- Conversion to animation -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  .ptext .border img{
-    position: relative;
-    top: -180px;
-    left: 20px;
-    max-width: 500px;
-  }
+</head>
 
-  .rating{
-    display: block;
-  }
-  .rating .skill{
-    display: block;
-  }
-  .parallax-img2 .ptext .border img{
-    max-width: 370px;
-  }
+<body>
+  <div id="particles-js">
+  <header class="v-header container">
+  <div class="header-overlay"></div>
+    <div class="header-content ">
+        <div class="container">
+          <div class="row top">
+            <div class="twelve column">
+                <h1><a href="mailto:Yousufafroze1999@gmail.com">Yousuf Afroze</a></h1>
+                <h2 id ="subtitle"> In permanent beta: learning, improving, evolving... </h2>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  .parallax-img3 .ptext .border img{
-    max-width: 370px;
-  }
-}
+<!--   <section class="section section-dark">
+    <h1>Who Am I ?</h1>
+    <p>
+      My name is Yousuf Afroze.
+      I am a student at <strong>University of Waterloo</strong> in <strong>Computer Science</strong>. 
+    <p>
+    <p>
+      I just finished off a project on Voting Classifiers to <strong>predict Fortune 500</strong> stock's status.
+      <br>
+      <br>
+      Check out my Projects and Past Internships below!
+    </p>
+  </section>
+  <div class="parallax-img2">
+    <div class="ptext">
+         </div>
+  </div>
+ -->
+  <div class="section section-dark">
+    <h1>Technical Skills</h1>
 
-/* Let you control the JS particle */
-.header-content{
-  z-index: 2;
-  max-height: 100vh;
-  max-width: 100vw;
-  margin:  0 auto;
-  font-size: 1.5em;
-  text-align: center; 
-}
+    <p class="skill-name"><i class="fab fa-python"></i> Python</p>
+    <p class="skill-name"><i class="fab fa-cuttlefish"></i> C</p>
+    <p class="skill-name"><i class="fas fa-plus"></i> C++ </p>
+    <p class="skill-name"><i class="fas fa-brain"></i>TensorFlow, Keras, Scikit-learn </p>
+    <p class="skill-name"><i class="fa fa-picture-o" aria-hidden="true"></i> Front-End (Angular, JS)</p>
+    
+  </div>
+  <div class="section section-dark">
+    <h1>Work Experiences</h1>
+    
+    <p><i class="fas fa-briefcase"></i> Co-Founder at Algo Consulting </p>
+
+    <p><i class="fas fa-briefcase"></i> Software Engineer at Providius </p>
+        
+    <p><i class="fas fa-briefcase"></i> VP Events at Waterloo Data Science Club </p>
+
+    <p><i class="fas fa-briefcase"></i> Teaching Assistant at Nixor College</p>
+
+    <p><i class="fas fa-briefcase"></i> Software Developer at AK Industries</p>
+    
+  </div>
+<!-- 
+  <div class="parallax-img3">
+    <div class="ptext">
+      
+    </div>
+  </div> -->
+
+  <div class="section section section-dark">
+    <h1>Projects</h1>
+    
+    <h2><a href="https://github.com/yousufafroze/Stock-Prediction-through-ML">Stock Prediction <i class="fas fa-dollar-sign"></i></i></a></h2>
+    <h3>Let the AI take over!!!</h3>
+    
+    <br>
+    
+    <h2><a href="https://github.com/yousufafroze/Market_Anomaly_Detector">Market Anomaly Detector <i class="far fa-envelope"></i></a></h2>
+    <h3>Break the limits on your capital gains</h3>
+    
+    <br>
+    
+    <h2><a href="https://github.com/yousufafroze/Welcome_Guests">Welcome Guests <i class="fas fa-wifi"></i></a></h2>
+    <h3>Get the wifi's password texted to your guests</h3>
+    
+    <br>
+    
+    <h2><a href="https://github.com/yousufafroze/Image-Classifting-Web-App">Classifying Web App <i class="fas fa-images"></i></a></h2>
+    <h3>Let Neural Network classify your images</h3>
+    
+     <br>
+    
+    <h2><a href="https://github.com/yousufafroze/Handwritten-Number-Detection">Handwritten Number Detection <i class="fab fa-500px"></i></i></a></h2>
+    <h3>No more figuring out dirty handwriting!</h3>
+    
+     <br>
+    
+    <h2><a href="https://github.com/yousufafroze/Face_Features_Detection">Face Features Detection <i class="far fa-smile-beam"></i></a></h2>
+    <h3>In case you're not wearing glasses like me...</h3>
+    
+     <br>
+    
+    <h2><a href="https://github.com/yousufafroze/Color-Game">RGB Color Game <i class="fab fa-wolf-pack-battalion"></i></a></h2>
+    <h3>You think you know colors?</h3>
+    
+     <br>
+
+    
+    <h2><a href="https://github.com/yousufafroze/Beats">Beats Game <i class="fas fa-drum"></i></a></h2>
+    <h3>
+      You think you can make the sickest beats in town??
+    </h3>
+    
+     <br>
+
+    
+    <h2><a href="https://github.com/yousufafroze/Twitter_Bot">Twitter Bot <i class="fas fa-robot"></i></a></h2>
+    <h3>
+      Just a small nice bot
+    </h3>
+
+     <br>
+
+    <h2><a href="https://yousufafroze.github.io/Portfolio/">Portfolio website <i class="fas fa-book-open"></i></a></h2>
+    <h3>
+      Portfolio
+    </h3>
+
+    
+  </div>
+
+<!--   <div class="parallax-img1">
+    <div class="ptext">
+      <span class="border">
+      </span>
+    </div>
+  </div> -->
+
+  <div id = "footer" class="section section section-dark table_div">
+    <a href="https://www.linkedin.com/in/yousuf-afroze/"><i class="fa fa-linkedin-square" style="font-size: 50px"></i></a>
+
+    <a href="https://github.com/yousufafroze"><i class="fa fa-github" style="font-size: 50px"></i></a>
+
+    <a href="mailto:yafroze@edu.uwaterloo.ca"><i class="fas fa-envelope" style="font-size: 40px"></i></a>
+</div>
+<!-- Animation JS -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+
+    <script  src="Portfolio.js"></script>
+</body>
+</html>
+
